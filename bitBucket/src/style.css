@@ -1,0 +1,135 @@
+.container {
+    position: relative;
+    width: 40%;
+    height: 80%;
+    background: #ffffff;
+    box-shadow: 0px 16px 32px rgba(32, 45, 53, 0.08);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    margin: 16;
+}
+.categories {
+    position: relative;
+    width: 50%;
+    height: 15%;
+    left: 25%;
+    top: 5%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.automobile {
+    width: 30%;
+    height: 100%;
+}
+.housing {
+    width: 25%;
+    height: 83%;
+}
+.cash {
+    width: 25%;
+    height: 80%;
+}
+.inputs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    /* justify-content: space-evenly; */
+
+    margin: 5%;
+}
+.amount .months {
+    margin-top: 3%;
+}
+.input1 {
+    background: #ffffff;
+    border: 1px solid #e9eef2;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 70%;
+    width: 80%;
+    left: 35%;
+    margin-top: -7%;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 45px;
+    color: #4a6071;
+}
+.dollarSign {
+    position: relative;
+    height: 30px;
+    top: 25%;
+}
+.LeftArrow {
+    position: relative;
+    height: 20px;
+    right: 2%;
+    top: 30%;
+}
+.rightArrow {
+    position: relative;
+    height: 14px;
+    right: -67%;
+    top: 4%;
+}
+.input2 {
+    height: 65%;
+    width: 80%;
+    margin-top: -15%;
+    border-radius: 4px;
+    background: #ffffff;
+    border: 1px solid #e9eef2;
+    box-sizing: border-box;
+    text-align: center;
+}
+.monthlyamount {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    height: 125px;
+    width: 90%;
+    border: 0.5px solid #e3e6ed;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+h2 {
+    margin: 10%;
+    margin-top: 5%;
+    font-family: Inter sans-serif;
+    font-style: normal;
+    line-height: 16px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #333333;
+}
+h1 {
+    margin-top: -15%;
+    margin-left: 85%;
+    color: #0d2ee7;
+    font-size: 22px;
+}
+.message {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #f4f8fa;
+    padding: 25px;
+}
+.apply {
+    height: 10%;
+    width: 60%;
+    margin-top: 5%;
+    border-radius: 32px;
+    background-color: #192c98;
+    margin-left: 20%;
+    align-items: center;
+    justify-self: center;
+    padding: 15px;
+    color: #f4f8fa;
+}
