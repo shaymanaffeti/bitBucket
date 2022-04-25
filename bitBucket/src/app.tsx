@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { useState, useEffect } from "react"
 import CurrencyInput from "react-currency-input-field"
-import moment from "moment"
+
 import "./index.css"
 import "./style.css"
 const products = require("../build/public/products.json")
@@ -119,6 +119,7 @@ const App = () => {
 
     return (
         <div className="w-full h-full flex justify-center items-center">
+            <span className="loan">Let’s plan your loan</span>
             <div className="container">
                 <div className="categories">
                     <img

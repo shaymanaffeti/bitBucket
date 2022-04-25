@@ -1,3 +1,12 @@
+span {
+    left: 20%;
+    bottom: 40%;
+    font-family: "WorkSans-Regular";
+    text-align: "center";
+    position: relative;
+    font-size: 25;
+    color: #1b31a8;
+}
 .container {
     position: relative;
     width: 40%;
@@ -7,7 +16,9 @@
     border-radius: 7px;
     display: flex;
     flex-direction: column;
-    margin: 16;
+    margin: 14;
+    right: 5%;
+    margin-top: 5%;
 }
 .categories {
     position: relative;
@@ -102,7 +113,7 @@
 h2 {
     margin: 10%;
     margin-top: 5%;
-    font-family: Inter sans-serif;
+    font-family: "WorkSans-Regular";
     font-style: normal;
     line-height: 16px;
     font-weight: 400;
@@ -113,6 +124,7 @@ h1 {
     margin-top: -15%;
     margin-left: 85%;
     color: #0d2ee7;
+    font-family: "WorkSans-Regular";
     font-size: 22px;
 }
 .message {
